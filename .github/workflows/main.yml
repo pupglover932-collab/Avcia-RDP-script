@@ -1,3 +1,4 @@
+
 name: AvicaRDP
 on:
 workflow_dispatch:
@@ -46,20 +47,3 @@ name: Show Connection Info
 run:
 Write-Host"
 AVICA RDP CONNECTION
-미
-Telegram : @TheNetworkZoneOfficial
-Credits: @PiroYadav & @TheYadavNetwork
-Instructions:
-Go to the GoFile link that will appear below
-Get Avica ID and Password from there
-Down load Avica app and connect
-GoFile link changes every time!
-Waiting for GoFile link...
-" -ForegroundColor Cyan
-name: Start Avica Service
-run: cmd /c show.bat
-name: Keep Session Active
-run:
-Write-Host " Avica is starting... Look for CONNECTION ID below!"-
-ForegroundColor Yellow
-cmd /c loop.bat
